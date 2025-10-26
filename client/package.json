@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.0",
-    "autoprefixer": "^10.4.21"
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0"
   },
   "dependencies": {
     "react": "^18.2.0",
