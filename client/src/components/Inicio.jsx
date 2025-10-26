@@ -5,7 +5,7 @@ export default function Inicio() {
     <section className="hero">
       {/* Fondo de video */}
       <video className="hero-video" autoPlay muted loop playsInline>
-        <source src="/videoFondo.mp4" type="video/mp4" />
+        <source src="/dupars-bike/videoFondo.mp4" type="video/mp4" />
         Tu navegador no soporta video HTML5.
       </video>
 
